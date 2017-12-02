@@ -64,7 +64,6 @@ a {
 	color:#345a77;
 }
 
-
 main {
 	display: flex;
 	height: 85vh;
@@ -150,7 +149,10 @@ aside {
 }
 
 .ProjectsContainer div {
-    flex: 1;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 .ProjectsContainer div div {
 	flex-direction: row;
